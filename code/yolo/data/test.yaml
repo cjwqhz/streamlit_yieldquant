@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: data/train.txt  # voclabel.py生成的train.txt的路径
+val: data/train.txt   # voclabel.py生成的val.txt的路径
+
+# number of classes
+nc: 1
+
+# class names
+names: ['spike']
